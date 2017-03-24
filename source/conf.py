@@ -18,9 +18,15 @@
 #
 import os
 import sys
-# sys.path.insert(0, os.path.abspath('.'))
-sys.path.append("/home/xenigmax/.local/lib/python2.7/site-packages/breathe/")
-breathe_projects = { "myproject" : "/home/xenigmax/seqan-retreat/seqan3/include/xml/" }
+
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+if on_rtd:
+  from subprocess import call 
+  call('doxygen')
+  breathe_projects = { "myproject" : "xml/" }
+else:
+  sys.path.append("/home/xenigmax/.local/lib/python2.7/site-packages/breathe/")
+  breathe_projects = { "myproject" : "/home/xenigmax/seqan-retreat/seqan3/include/xml/" }
 breathe_default_project = "myproject"
 
 # -- General configuration ------------------------------------------------
@@ -84,7 +90,7 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'default'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
