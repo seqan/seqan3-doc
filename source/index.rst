@@ -9,14 +9,8 @@ Welcome to SeqAn3's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :titlesonly:
 
-.. doxygenclass:: seqan3::align_file_in
-   :members:
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   alphabet
+   container
+   io
