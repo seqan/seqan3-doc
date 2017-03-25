@@ -4,5 +4,5 @@ Gaps
 .. doxygenfile:: gapped_alphabet.hpp
    :project: myproject
 
-.. doxygenfile:: gaps.hpp
+.. doxygenfile:: gap.hpp
    :project: myproject
