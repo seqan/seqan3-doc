@@ -24,7 +24,11 @@ if on_rtd:
   from subprocess import call 
   call('doxygen')
   breathe_projects = { "myproject" : "xml/" }
+  html_theme = 'default'
 else:
+  import sphinx_rtd_theme
+  html_theme = "sphinx_rtd_theme"
+  html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
   sys.path.append("/home/xenigmax/.local/lib/python2.7/site-packages/breathe/")
   breathe_projects = { "myproject" : "/home/xenigmax/seqan-retreat/seqan3/include/xml/" }
 breathe_default_project = "myproject"
@@ -90,7 +94,6 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'default'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
