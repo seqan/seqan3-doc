@@ -1,5 +1,8 @@
-Io
-==
+Detail
+======
+
+.. doxygenfile:: int_types.hpp
+   :project: myproject
 
 .. toctree::
    :caption: Modules:
@@ -7,5 +10,3 @@ Io
    :maxdepth: 1
    :hidden:
 
-   io/alignment
-   io/sequence

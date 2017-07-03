@@ -1,14 +1,29 @@
 Alphabet
 ========
 
-Aminoacid
----------
-a
+.. doxygenfile:: composition.hpp
+   :project: myproject
 
-Gaps
-----
-g
+.. doxygenfile:: concept.hpp
+   :project: myproject
 
-Nucleotide
-----------
-n
+.. doxygenfile:: nucleotide.hpp
+   :project: myproject
+
+.. doxygenfile:: quality.hpp
+   :project: myproject
+
+.. doxygenfile:: union_alphabet.hpp
+   :project: myproject
+
+.. toctree::
+   :caption: Modules:
+   :titlesonly:
+   :maxdepth: 1
+   :hidden:
+
+   alphabet/aminoacid
+   alphabet/detail
+   alphabet/gap
+   alphabet/nucleotide
+   alphabet/quality

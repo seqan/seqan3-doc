@@ -41,9 +41,3 @@ Graph
    :titlesonly:
    :maxdepth: 1
    :hidden:
-   :caption: Modules:
-
-   alphabet
-   core
-   io
-   range
