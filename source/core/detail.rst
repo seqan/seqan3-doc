@@ -1,7 +1,7 @@
 Detail
 ======
 
-.. doxygenfile:: int_types.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//core/detail/int_types.hpp
    :project: myproject
 
 .. toctree::

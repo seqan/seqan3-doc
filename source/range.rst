@@ -1,16 +1,16 @@
 Range
 =====
 
-.. doxygenfile:: action.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//range/action.hpp
    :project: myproject
 
-.. doxygenfile:: concept.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//range/concept.hpp
    :project: myproject
 
-.. doxygenfile:: container.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//range/container.hpp
    :project: myproject
 
-.. doxygenfile:: view.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//range/view.hpp
    :project: myproject
 
 .. toctree::

@@ -1,7 +1,7 @@
 Container
 =========
 
-.. doxygenfile:: concept.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//range/container/concept.hpp
    :project: myproject
 
 .. toctree::

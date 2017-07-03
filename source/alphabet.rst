@@ -1,19 +1,19 @@
 Alphabet
 ========
 
-.. doxygenfile:: composition.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//alphabet/composition.hpp
    :project: myproject
 
-.. doxygenfile:: concept.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//alphabet/concept.hpp
    :project: myproject
 
-.. doxygenfile:: nucleotide.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//alphabet/nucleotide.hpp
    :project: myproject
 
-.. doxygenfile:: quality.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//alphabet/quality.hpp
    :project: myproject
 
-.. doxygenfile:: union_alphabet.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//alphabet/union_alphabet.hpp
    :project: myproject
 
 .. toctree::

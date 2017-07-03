@@ -1,13 +1,13 @@
 Sequence
 ========
 
-.. doxygenfile:: sequence_file_format.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//io/sequence/sequence_file_format.hpp
    :project: myproject
 
-.. doxygenfile:: sequence_file_format_fasta.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//io/sequence/sequence_file_format_fasta.hpp
    :project: myproject
 
-.. doxygenfile:: sequence_file_in.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//io/sequence/sequence_file_in.hpp
    :project: myproject
 
 .. toctree::

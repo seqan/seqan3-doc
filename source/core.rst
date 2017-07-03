@@ -1,10 +1,10 @@
 Core
 ====
 
-.. doxygenfile:: platform.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//core/platform.hpp
    :project: myproject
 
-.. doxygenfile:: pod_tuple.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//core/pod_tuple.hpp
    :project: myproject
 
 .. toctree::

@@ -1,16 +1,16 @@
 Concept
 =======
 
-.. doxygenfile:: core.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//core/concept/core.hpp
    :project: myproject
 
-.. doxygenfile:: core_detail.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//core/concept/core_detail.hpp
    :project: myproject
 
-.. doxygenfile:: iterator.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//core/concept/iterator.hpp
    :project: myproject
 
-.. doxygenfile:: iterator_detail.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//core/concept/iterator_detail.hpp
    :project: myproject
 
 .. toctree::

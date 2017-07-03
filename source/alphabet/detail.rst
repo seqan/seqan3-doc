@@ -1,7 +1,7 @@
 Detail
 ======
 
-.. doxygenfile:: convert.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//alphabet/detail/convert.hpp
    :project: myproject
 
 .. toctree::

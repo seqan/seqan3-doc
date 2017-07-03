@@ -1,10 +1,10 @@
 Aminoacid
 =========
 
-.. doxygenfile:: aa27.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//alphabet/aminoacid/aa27.hpp
    :project: myproject
 
-.. doxygenfile:: all.hpp
+.. doxygenfile:: ./seqan3/include/seqan3//alphabet/aminoacid/all.hpp
    :project: myproject
 
 .. toctree::
