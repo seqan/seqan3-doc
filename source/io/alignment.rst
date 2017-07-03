@@ -1,16 +1,16 @@
 Alignment
 =========
 
-.. doxygenfile:: ./seqan3/include/seqan3//io/alignment/align_file.hpp
+.. doxygenfile:: align_file.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//io/alignment/align_file_detail.hpp
+.. doxygenfile:: align_file_detail.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//io/alignment/align_file_in.hpp
+.. doxygenfile:: align_file_in.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//io/alignment/align_file_out.hpp
+.. doxygenfile:: align_file_out.hpp
    :project: myproject
 
 .. toctree::

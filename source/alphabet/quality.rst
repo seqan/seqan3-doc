@@ -1,16 +1,16 @@
 Quality
 =======
 
-.. doxygenfile:: ./seqan3/include/seqan3//alphabet/quality/aliases.hpp
+.. doxygenfile:: aliases.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//alphabet/quality/composition.hpp
+.. doxygenfile:: composition.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//alphabet/quality/concept.hpp
+.. doxygenfile:: concept.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//alphabet/quality/illumina18.hpp
+.. doxygenfile:: illumina18.hpp
    :project: myproject
 
 .. toctree::

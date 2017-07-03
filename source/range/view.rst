@@ -1,22 +1,22 @@
 View
 ====
 
-.. doxygenfile:: ./seqan3/include/seqan3//range/view/char_to.hpp
+.. doxygenfile:: char_to.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//range/view/concept.hpp
+.. doxygenfile:: concept.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//range/view/convert.hpp
+.. doxygenfile:: convert.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//range/view/rank_to.hpp
+.. doxygenfile:: rank_to.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//range/view/to_char.hpp
+.. doxygenfile:: to_char.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//range/view/to_rank.hpp
+.. doxygenfile:: to_rank.hpp
    :project: myproject
 
 .. toctree::

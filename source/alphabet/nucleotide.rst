@@ -1,22 +1,22 @@
 Nucleotide
 ==========
 
-.. doxygenfile:: ./seqan3/include/seqan3//alphabet/nucleotide/concept.hpp
+.. doxygenfile:: concept.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//alphabet/nucleotide/dna4.hpp
+.. doxygenfile:: dna4.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//alphabet/nucleotide/dna5.hpp
+.. doxygenfile:: dna5.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//alphabet/nucleotide/nucl16.hpp
+.. doxygenfile:: nucl16.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//alphabet/nucleotide/rna4.hpp
+.. doxygenfile:: rna4.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//alphabet/nucleotide/rna5.hpp
+.. doxygenfile:: rna5.hpp
    :project: myproject
 
 .. toctree::

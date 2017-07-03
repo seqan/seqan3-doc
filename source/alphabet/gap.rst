@@ -1,10 +1,10 @@
 Gap
 ===
 
-.. doxygenfile:: ./seqan3/include/seqan3//alphabet/gap/gap.hpp
+.. doxygenfile:: gap.hpp
    :project: myproject
 
-.. doxygenfile:: ./seqan3/include/seqan3//alphabet/gap/gapped_alphabet.hpp
+.. doxygenfile:: gapped_alphabet.hpp
    :project: myproject
 
 .. toctree::
