@@ -24,7 +24,7 @@ def generateIndex(inDir, outDir):
         outFile.write("   %s\n" % (moduleName))
     outFile.close()
 
-def generateRST(outPath, moduleName, listModules, listFiles) :
+def generateRST(inPath, outPath, moduleName, listModules, listFiles) :
     if len(listModules) > 0 and os.path.isdir(outPath) == False:
         os.mkdir(outPath)
 
@@ -35,7 +35,7 @@ def generateRST(outPath, moduleName, listModules, listFiles) :
 
     # doxygenfile
     for fileName in listFiles :
-        outFile.write(".. doxygenfile:: %s\n" % fileName)
+        outFile.write(".. doxygenfile:: %s/%s\n" % (inPath,fileName))
         outFile.write("   :project: myproject\n\n")
 
     # toctree
@@ -66,7 +66,7 @@ def generateRSTs(inDir, outDir, isRoot=False):
 
     if isRoot == False :
         moduleName = outDir.split("/")[-1]
-        generateRST(outDir, moduleName, listModules, listFiles)
+        generateRST(inDir, outDir, moduleName, listModules, listFiles)
 
 
     for moduleName in listModules :
