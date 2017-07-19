@@ -19,18 +19,22 @@
 import os
 import sys
 
+# doxygen
+from subprocess import call 
+call(['doxygen', 'User_Doxyfile'])
+#call(['doxygen', './doxyfiles/Developer_Doxyfile'])
+
+# make source
+call(['python', './make_source.py', '../seqan3/include/seqan3/', './'])
+
+breathe_projects = { "myproject" : "./user_doxygen_out/xml/" }
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if on_rtd:
-  from subprocess import call 
-  call('doxygen')
-  breathe_projects = { "myproject" : "xml/" }
   html_theme = 'default'
 else:
   import sphinx_rtd_theme
   html_theme = "sphinx_rtd_theme"
   html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-  sys.path.append("/home/xenigmax/.local/lib/python2.7/site-packages/breathe/")
-  breathe_projects = { "myproject" : "/home/xenigmax/seqan-retreat/seqan3/include/xml/" }
 breathe_default_project = "myproject"
 
 # -- General configuration ------------------------------------------------
