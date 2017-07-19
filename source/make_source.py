@@ -4,7 +4,7 @@ import os
 import sys
 
 CAT_NAME = "Modules"
-INDEX_TEMP = "_index.rst"
+INDEX_TEMP = "./_index.rst"
 
 def generateIndex(inDir, outDir):
     listModules = []
