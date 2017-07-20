@@ -21,6 +21,7 @@ import sys
 
 # doxygen
 from subprocess import call 
+call(['git', 'clone', 'https://github.com/seqan/seqan3'])
 call(['doxygen', 'User_Doxyfile'])
 #call(['doxygen', './doxyfiles/Developer_Doxyfile'])
 
@@ -62,8 +63,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'SeqAn3'
-copyright = u'2017, many'
-author = u'many'
+copyright = u'2017, SeqAn developers'
+author = u'SeqAn developers'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
