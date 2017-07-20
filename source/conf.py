@@ -26,7 +26,7 @@ call(['doxygen', 'User_Doxyfile'])
 #call(['doxygen', './doxyfiles/Developer_Doxyfile'])
 
 # make source
-call(['python', './make_source.py', '../seqan3/include/seqan3/', './'])
+call(['python', './make_source.py', './seqan3/include/seqan3/', './'])
 
 breathe_projects = { "myproject" : "./user_doxygen_out/xml/" }
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
