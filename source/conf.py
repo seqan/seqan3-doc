@@ -22,7 +22,7 @@ import sys
 # doxygen
 from subprocess import call 
 call(['git', 'clone', 'https://github.com/seqan/seqan3'])
-call(['doxygen', 'User_Doxyfile'])
+call(['doxygen', 'Doxyfile'])
 #call(['doxygen', './doxyfiles/Developer_Doxyfile'])
 
 # make source
