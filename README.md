@@ -7,7 +7,7 @@ We are using
 * Sphinx: http://www.sphinx-doc.org/en/stable/
 * ReadTheDocs: https://readthedocs.org/
 
-c
+# Why ?
 The core team will be freed by maintaining in-house documentation system and a lot of html / javascript works. :)
 
 # How it works?
