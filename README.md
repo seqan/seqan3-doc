@@ -15,7 +15,7 @@ The core team will be freed from maintaining in-house documentation systems and 
 2. Run Doxygen to generate .xml files.
 3. Run make_source.py to generate .rst files from .xml files.
 4. Run Sphinx with Breathe exntension to generate .html files.
-5. The API documentation will be shown in: https://seqan3-api.readthedocs.org
+5. The API documentation will be available at: https://seqan3-api.readthedocs.org
 
 * Github will send a signal to ReadTheDocs when the SeqAn3 repository has a update. Therefore, step 2-5 will be ran on ReadTheDocs.
 
