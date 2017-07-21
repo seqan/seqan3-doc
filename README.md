@@ -8,7 +8,7 @@ We are using
 * ReadTheDocs: https://readthedocs.org/
 
 # Why ?
-The core team will be freed by maintaining in-house documentation system and a lot of html / javascript works. :)
+The core team will be freed from maintaining in-house documentation systems and html / javascript works. :)
 
 # How it works?
 1. Clone the SeqAn3 repository.
