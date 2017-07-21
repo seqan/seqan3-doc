@@ -10,7 +10,7 @@ We are using
 # Why ?
 The core team will be freed from maintaining in-house documentation systems and html / javascript works. :)
 
-# How it works?
+# How it works ?
 1. Clone the SeqAn3 repository.
 2. Run Doxygen to generate .xml files.
 3. Run make_source.py to generate .rst files from .xml files.
