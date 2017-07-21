@@ -17,7 +17,7 @@ The core team will be freed from maintaining in-house documentation systems and 
 4. Run Sphinx with Breathe exntension to generate .html files.
 5. The API documentation will be available at: https://seqan3-api.readthedocs.org
 
-* Github will send a signal to ReadTheDocs when the SeqAn3 repository has a update. Therefore, step 2-5 will be ran on ReadTheDocs.
+* Github will send a signal to ReadTheDocs when the SeqAn3 repository has a update. Therefore, step 2-5 will be ran on ReadTheDocs automatically.
 
 # Contact
 Please feel free to contact to the author (seqan3-doc@jongkyu.kim) if you have a question.
