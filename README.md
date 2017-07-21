@@ -18,5 +18,13 @@ The core team will be freed from maintaining in-house documentation systems and 
 
 * Github will send a signal to ReadTheDocs when the SeqAn3 repository has a update. Therefore, step 2-5 will be ran on ReadTheDocs automatically. The API documentation will be available at: https://seqan3-api.readthedocs.org
 
+# Run on local for testing
+```
+pip install Sphinx==1.5.3
+pip install sphinx_rtd_theme
+pip install breathe
+sphinx-build ./source ./build
+```
+
 # Contact
 Please feel free to contact to the author (seqan3-doc@jongkyu.kim) if you have a question.
